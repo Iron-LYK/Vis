@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+export NODE_PATH='/home/liyaokun/project/DynamicTree/vis/viser/src/viser/client/.nodeenv/lib/node_modules'
+export NPM_CONFIG_PREFIX='/home/liyaokun/project/DynamicTree/vis/viser/src/viser/client/.nodeenv'
+export npm_config_prefix='/home/liyaokun/project/DynamicTree/vis/viser/src/viser/client/.nodeenv'
+exec '/home/liyaokun/project/DynamicTree/vis/viser/src/viser/client/.nodeenv/bin/node' "$@"
